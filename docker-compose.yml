@@ -26,7 +26,8 @@ services:
       - RABBITMQ_DEFAULT_USER=guest
       - RABBITMQ_DEFAULT_PASS=guest
 
-  redis: "redis:alphine"
+  redis: 
+    image: "redis:alphine"
 
   vproapp:
     build: 
