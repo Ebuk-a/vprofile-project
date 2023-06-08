@@ -2,5 +2,5 @@ FROM nginx
 LABEL "Author"="Ebuka"
 LABEL "Project"="vprofile"
 
-RUN rm -rf /etc/ngix/conf.d/default.conf
-COPY nginvproapp.conf /etc/ngix/conf.d/vproapp.conf 
+RUN rm -rf /etc/nginx/conf.d/default.conf
+COPY nginvproapp.conf /etc/nginx/conf.d/vproapp.conf 
